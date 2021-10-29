@@ -1,1 +1,1 @@
-mv -f ./dist ../docs
+cd ../docs && rm -rf ./* && cd ../ljh && mv -f ./dist/* ../docs && rm -rf ./dist
